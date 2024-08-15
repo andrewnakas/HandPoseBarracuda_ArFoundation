@@ -1,6 +1,6 @@
 HandPoseBarracuda
 =================
-![gif](https://imgur.com/a/YdvSpW0.gif)
+![gif](https://i.imgur.com/YdvSpW0.gif)
 ![gif](https://i.imgur.com/jvHmCMc.gif)
 
 
