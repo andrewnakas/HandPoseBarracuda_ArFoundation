@@ -1,11 +1,17 @@
 HandPoseBarracuda
 =================
-
+![gif](https://imgur.com/a/YdvSpW0.gif)
 ![gif](https://i.imgur.com/jvHmCMc.gif)
-![gif](https://i.imgur.com/KZmAcPa.gif)
 
-**HandPoseBarracuda** is a proof-of-concept implementation of a neural network
-hand/finger tracker that works with a monocular color camera.
+
+**HandPoseBarracuda_ArFoundation** is a proof-of-concept implementation of a neural network
+hand/finger tracker that works with a monocular color camera now with an added screen-to-world-space projector for 3D
+  applications working with the defult scene and arfoundation. 
+
+All cameras and hands are different so i added 8 input fields so you can mess with the world space projector to fit your needs depending on device. 
+
+Shout out to Keijiro for the initial project. 
+https://github.com/keijiro/HandPoseBarracuda
 
 Basically, HandPoseBarracuda is a partial port of the [MediaPipe Hands]
 pipeline. Although it is not a straight port of the original package, it uses
@@ -19,9 +25,6 @@ essential features needed for practical applications:
 - **It only accepts a single hand.** Although you can reuse the most part of
   the implementation, you will need to redesign the system to support multiple
   hands.
-- **It only supports screen-space (2D) positions and relative depths from
-  a palm.** You will need to implement a screen-to-world-space projector for 3D
-  applications.
 
 Related projects
 ----------------
