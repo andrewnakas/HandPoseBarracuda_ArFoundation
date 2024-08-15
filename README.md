@@ -1,4 +1,4 @@
-HandPoseBarracuda
+HandPoseBarracuda AR Foundation
 =================
 ![gif](https://i.imgur.com/3qeIutb.gif)
 ![gif](https://i.imgur.com/jvHmCMc.gif)
