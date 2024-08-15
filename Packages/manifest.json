@@ -3,11 +3,16 @@
     {
       "name": "Keijiro",
       "url": "https://registry.npmjs.com",
-      "scopes": [ "jp.keijiro" ]
+      "scopes": [
+        "jp.keijiro"
+      ]
     }
   ],
   "dependencies": {
+    "com.unity.ai.navigation": "1.1.4",
     "com.unity.ugui": "1.0.0",
+    "com.unity.xr.arfoundation": "5.1.5",
+    "com.unity.xr.arkit": "5.1.5",
     "jp.keijiro.klak.testtools": "1.0.4",
     "jp.keijiro.mediapipe.blazepalm": "2.1.1",
     "jp.keijiro.mediapipe.handlandmark": "2.1.1",

@@ -5,7 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/TestAnimator.unity
     guid: 49aaa2374d47645399fa8837f75a0a47
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/ArFoundationHandTracking.unity
+    guid: 1a983563b229d475697106e0baa78dc0
+  - enabled: 0
+    path: Assets/ok.unity
+    guid: 0662de4b3bb484c688e320c950f2ac07
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 7488aedb57aaf43acb9f2b1325ee6058, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 998291af0743d497faa0fe4bac6badda, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 90d52e64049a2412fbd834b4a7b087bc, type: 2}
+  m_UseUCBPForAssetBundles: 0
